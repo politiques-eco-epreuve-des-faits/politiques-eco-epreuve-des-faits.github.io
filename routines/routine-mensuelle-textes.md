@@ -1,6 +1,6 @@
 # Routine mensuelle : textes de la veille (repo politiques-eco-epreuve-des-faits/politiques-eco-epreuve-des-faits.github.io)
 
-Proposition de routine cloud (claude.ai/code/routines), à créer avec l'accord d'Adrien.
+Routine créée le 18/11/2026 : trig_018B4W9jWZuuc4Lqf4CfKTGz (https://claude.ai/code/routines/trig_018B4W9jWZuuc4Lqf4CfKTGz), Opus 5.5, connecteur Claude Docs seulement.
 Calendrier proposé : le 16 de chaque mois, 05:30 UTC, sur le repo `politiques-eco-epreuve-des-faits/politiques-eco-epreuve-des-faits.github.io`.
 Elle ouvre une pull request ; elle ne pousse jamais sur `main`. Fusionner la PR = publier.
 Les graphiques OCDE sont actualisés à part par `.github/workflows/charts.yml` (le 2 du mois).
