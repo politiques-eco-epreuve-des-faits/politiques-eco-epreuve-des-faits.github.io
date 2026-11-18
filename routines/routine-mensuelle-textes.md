@@ -1,7 +1,7 @@
-# Routine mensuelle : textes de la veille (repo ajoly35/veille-politiques-economiques)
+# Routine mensuelle : textes de la veille (repo politiques-eco-epreuve-des-faits/politiques-eco-epreuve-des-faits.github.io)
 
 Proposition de routine cloud (claude.ai/code/routines), à créer avec l'accord d'Adrien.
-Calendrier proposé : le 16 de chaque mois, 05:30 UTC, sur le repo `ajoly35/veille-politiques-economiques`.
+Calendrier proposé : le 16 de chaque mois, 05:30 UTC, sur le repo `politiques-eco-epreuve-des-faits/politiques-eco-epreuve-des-faits.github.io`.
 Elle ouvre une pull request ; elle ne pousse jamais sur `main`. Fusionner la PR = publier.
 Les graphiques OCDE sont actualisés à part par `.github/workflows/charts.yml` (le 2 du mois).
 

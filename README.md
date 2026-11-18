@@ -1,7 +1,7 @@
 # Les politiques économiques à l'épreuve des faits · veille automatisée
 
 Site de veille pour la mise à jour du manuel, chapitre par chapitre (pilote : chapitre 6).
-https://ajoly35.github.io/veille-politiques-economiques/
+https://politiques-eco-epreuve-des-faits.github.io/
 
 - `_data/ch6.yml` : passages (paraphrase, données récentes, brouillon, références). Aucun texte du manuel.
 - `_data/ch6_partis.yml` : partis pris concurrents (onglet Débats).
