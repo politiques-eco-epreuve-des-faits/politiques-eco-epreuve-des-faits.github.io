@@ -1,0 +1,6 @@
+title: "Les politiques économiques à l'épreuve des faits · veille automatisée"
+description: "Veille automatisée pour la mise à jour du manuel, chapitre par chapitre : passages susceptibles d'évoluer, données récentes, brouillons et graphiques actualisés."
+baseurl: "/veille-politiques-economiques"
+lang: fr
+markdown: kramdown
+exclude: [README.md, routines, scripts, "*.py"]

@@ -1,0 +1,60 @@
+---
+layout: default
+title: "Chapitre 6, la productivité"
+---
+{% assign g = site.data.ch6_charts %}
+<h1>Chapitre 6 · La productivité : innovation, politiques sectorielles et concurrence</h1>
+<p class="byline">Données au {{ g.maj_le | date: "%d/%m/%Y" }} · graphiques de l'OCDE actualisés le 2 de chaque mois, textes le 16 après relecture</p>
+<p class="lead">Cette page recense les passages du chapitre susceptibles d'évoluer d'ici la prochaine édition, et propose de nouvelles sections, notamment sur la diffusion de l'IA en France. Chaque passage résume le message en substance, présente les résultats des études et des publications parues depuis janvier 2025 (CAE, IPP, Insee, Institut français d'économie, DG Trésor, Banque de France, OCDE), et fournit un brouillon de paragraphe avec ses références. Les graphiques sont reconstruits à partir des sources publiques et mis en regard de leur version actualisée. Tout repose sur des données publiques et des études publiées, chiffres vérifiés à la source ; aucun texte du manuel n'est reproduit.</p>
+
+<div class="tabs" role="tablist">
+  <button class="tab" role="tab" aria-selected="true" aria-controls="p-passages" id="t-passages">Passages</button>
+  <button class="tab" role="tab" aria-selected="false" aria-controls="p-graphiques" id="t-graphiques">Graphiques</button>
+  <button class="tab" role="tab" aria-selected="false" aria-controls="p-debats" id="t-debats">Débats</button>
+  <button class="tab" role="tab" aria-selected="false" aria-controls="p-methode" id="t-methode">Méthode et sources</button>
+</div>
+
+<section class="panel" id="p-passages" role="tabpanel" aria-labelledby="t-passages">
+  <div class="filters" id="f-verdict"><span class="lbl">Verdict</span></div>
+  <div class="filters" id="f-partie"><span class="lbl">Partie</span><input class="search" id="q" type="search" placeholder="Rechercher (CIR, IA, France 2030…)"></div>
+  <p class="count" id="count"></p>
+  <div id="cards"></div>
+</section>
+
+<section class="panel" id="p-graphiques" role="tabpanel" aria-labelledby="t-graphiques" hidden>
+<p class="lead">Chaque graphique est reconstruit à partir de la source publique citée par le manuel (version du livre), puis mis en regard de sa version actualisée. Les données sont téléchargeables sous chaque figure.</p>
+<figure><img src="{{ '/assets/ch6/graphique-6-3.png' | relative_url }}" alt="À gauche, emploi et ventes des entreprises françaises ayant adopté l'IA entre 2017 et 2020, écart aux non-adoptantes, 2014 à 2022. À droite, embauches en CDI de 21 à 29 ans chez les utilisatrices intensives d'IA générative, écart aux autres entreprises, 2021 à 2026."><figcaption><strong>Graphique 6.3 (p. 235).</strong> À gauche, la version du livre : l'emploi des entreprises adoptantes progresse d'environ 5 % par rapport aux non-adoptantes après l'adoption (Aghion et al., 2025, fig. 2, valeurs extraites de la figure publiée). À droite, la mise à jour pour l'IA générative : les utilisatrices intensives embauchent moins de jeunes en CDI depuis 2023 (Bergeaud et al., 2026, fig. 5, valeurs lues sur la figure, précision d'environ 0,01 ; résultat descriptif selon les auteurs). Barres : intervalles de confiance à 95 %. Mis à jour à la main à chaque nouvelle étude. <a href="{{ '/assets/ch6/data/graph63_aghion2025_fig2.csv' | relative_url }}">Données, gauche</a> · <a href="{{ '/assets/ch6/data/graph63_lift2026_fig5_21-29ans.csv' | relative_url }}">données, droite</a>.</figcaption></figure>
+<figure><img src="{{ '/assets/ch6/graphique-6-4.png' | relative_url }}" alt="Productivité horaire de la France rapportée aux États-Unis et à l'Allemagne. À gauche, corrigée de la composition de l'emploi, 2003 à 2019. À droite, OCDE, non corrigée, jusqu'à la dernière année disponible."><figcaption><strong>Graphique 6.4 (p. 237).</strong> À gauche, la version du livre, corrigée de la composition de l'emploi (Guadalupe et al., 2022). À droite, la série de l'OCDE, non corrigée, actualisée chaque mois : la productivité horaire française passe de {{ g.g64.fr_us_2003 | replace: '.', ',' }} fois celle des États-Unis en 2003 à {{ g.g64.fr_us | replace: '.', ',' }} en {{ g.g64.annee }}. Même tendance, niveaux différents : sans correction, la France ne passe sous les États-Unis qu'en 2023. Les deux séries ne doivent pas être raccordées. <a href="{{ '/assets/ch6/data/graph64_original_guadalupe2022.csv' | relative_url }}">Données, gauche</a> · <a href="{{ '/assets/ch6/data/graph64_ocde.csv' | relative_url }}">données, droite</a>.</figcaption></figure>
+<figure><img src="{{ '/assets/ch6/graphique-6-5.png' | relative_url }}" alt="Capital-risque en pourcentage du PIB par pays et par stade, 2022 et dernière année ; part du volume mondial par taille de tour, 2000-2023 et 2025."><figcaption><strong>Graphique 6.5 (p. 239).</strong> En haut, capital-risque en % du PIB : en {{ g.g65.annee }}, il est {{ g.g65.fr_fois | replace: '.', ',' }} fois plus faible en France qu'aux États-Unis, et {{ g.g65.de_fois | replace: '.', ',' }} fois plus faible en Allemagne (OCDE, actualisé chaque mois). En bas, part du volume mondial par taille de tour (Dealroom, actualisé à la main) : sur les tours de plus de 100 M$, l'Europe ne capte que 9 % du volume mondial en 2025 (périodes et périmètres différents de la version du livre : comparer les écarts, pas les niveaux). À gauche, la version du livre (CAE et Conseil allemand des experts économiques, 2024). <a href="{{ '/assets/ch6/data/graph65_gauche_ocde.csv' | relative_url }}">Données OCDE</a> · <a href="{{ '/assets/ch6/data/graph65_right_dealroom.csv' | relative_url }}">données Dealroom</a> · <a href="{{ '/assets/ch6/data/graph65_left_original_2022.csv' | relative_url }}">version du livre</a>.</figcaption></figure>
+<p>L'effet de demande de l'encadré 6.2 est aussi suivi étude par étude, en anglais, sur la <a href="https://ajoly35.github.io/gen-ai-living-review/productivity/#evidence-from-the-demand-side">revue vivante sur l'IA générative</a>.</p>
+</section>
+
+<section class="panel" id="p-debats" role="tabpanel" aria-labelledby="t-debats" hidden>
+  <p class="lead">Positions concurrentes à celles du manuel dans le débat public (partie 4), avec qui les porte et le chiffre qu'elles mettent en avant. Les cartes vertes rejoignent la position du manuel.</p>
+  <div class="filters" id="f-debat"><span class="lbl">Débat</span></div>
+  <div class="deb-grid" id="debs"></div>
+</section>
+
+<section class="panel" id="p-methode" role="tabpanel" aria-labelledby="t-methode" hidden>
+<h2>Comment lire les passages</h2>
+<div class="legend"><span class="badge b-contredit">Contredit</span><span class="badge b-nuance">Nuancé</span><span class="badge b-renforce">Renforcé</span><span class="badge b-tient">Tient</span><span class="badge b-nouveau">Nouveau</span></div>
+<ul class="method">
+<li><strong>Contredit</strong> : un chiffre ou une décomposition du manuel est à corriger. <strong>Nuancé</strong> : le message tient, mais des résultats récents en limitent la portée. <strong>Renforcé</strong> : des études récentes le confirment avec de nouvelles données. <strong>Tient</strong> : rien de neuf ne le change, les chiffres sont simplement actualisés. <strong>Nouveau</strong> : section proposée.</li>
+<li><strong>Mise à jour auto</strong> : le chiffre est actualisé chaque mois depuis la même source publique. <strong>Manuel</strong> : la formulation relève des auteurs.</li>
+<li>Une étude n'est retenue que si elle se rattache à l'un des messages du chapitre et si chaque chiffre a été lu dans la source (page ou URL). Les messages sont résumés : aucun texte du manuel n'est reproduit.</li>
+</ul>
+<h2>Sources suivies</h2>
+<p><strong>Institutions françaises</strong> : Conseil d'analyse économique, Institut français d'économie (ex-OFCE et CEPII), Institut des politiques publiques, Insee, Dares, DG Trésor, Banque de France, Conseil national de productivité, Haut-commissariat à la Stratégie et au Plan (CNEPI), Cour des comptes, Sénat, Comité de surveillance des investissements d'avenir, Autorité de la concurrence, MESR-SIES, LIFT (HEC Paris).<br>
+<strong>Institutions internationales</strong> : OCDE, FMI, BCE, Banque d'Angleterre, BLS, Bruegel.<br>
+<strong>Recherche</strong> : NBER, CEPR, SSRN et revues à comité de lecture.<br>
+<strong>Débat public</strong> : Institut Montaigne, Fondation iFRAP, Coe-Rexecode, Fondation Jean-Jaurès, Institut Avant-garde, Cepremap, La Fabrique de l'industrie, Conseil national de l'industrie, AmCham France.<br>
+<strong>Données</strong> : OCDE (productivité, R&amp;D, capital-risque), Dealroom.</p>
+<h2>Calendrier</h2>
+<p>Les graphiques tirés de l'OCDE sont actualisés automatiquement le 2 de chaque mois ; les textes, le 16, par une proposition relue avant publication.</p>
+</section>
+
+<script>
+window.CH6 = {{ site.data.ch6 | jsonify }};
+window.CH6_DEBATS = {{ site.data.ch6_partis | jsonify }};
+</script>
+<script src="{{ '/assets/app.js' | relative_url }}"></script>

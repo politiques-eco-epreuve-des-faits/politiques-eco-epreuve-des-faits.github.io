@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-k">Les politiques économiques à l'épreuve des faits</span><span class="brand-s">veille automatisée</span></a>
+  </div>
+</header>
+<main class="wrap">
+{{ content }}
+</main>
+<footer class="wrap foot">
+  <p>Document de travail · Adrien Joly, London School of Economics · construit uniquement à partir de données publiques et d'études publiées ; aucun texte du manuel n'est reproduit.</p>
+</footer>
+</body>
+</html>
