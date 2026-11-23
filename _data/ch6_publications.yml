@@ -1,0 +1,89 @@
+# Principales publications parues depuis octobre 2026, par ordre chronologique (demande de Xavier, 22/11/2026).
+# Champs : date (AAAA-MM ou AAAA-MM-JJ, date de parution), ref, type (académique | institution FR | institution internationale),
+#          avis (citer | mentionner | suivre | écarter), ou (partie et page visées), motif (une phrase).
+# Avis = suggestion du LLM, à valider par les auteurs. Mise à jour : passage mensuel (le 16).
+
+- date: "2026-10-13"
+  ref: "FMI (2026), *Perspectives de l'économie mondiale*, octobre 2026, chapitre 1."
+  url: "https://www.imf.org/en/publications/weo/issues/2026/10/13/world-economic-outlook-october-2026"
+  type: institution internationale
+  avis: citer
+  ou: "2.1.B, p. 234 (effet macroéconomique de l'IA)"
+  motif: "Le scénario central ne retient aucun gain de croissance lié à l'IA : place le chiffrage du livre dans la fourchette basse."
+- date: "2026-10"
+  ref: "Cozic, C. et P. Savoldelli (2026), « Pratique des dépenses fiscales : où se situe la France par rapport à ses pairs européens ? », Sénat, commission des finances."
+  url: "https://www.senat.fr/rap/r26-080/r26-080-syn.pdf"
+  type: institution FR
+  avis: mentionner
+  ou: "3.1.B, p. 248-249, et 4.2, p. 260 (CIR)"
+  motif: "France 3e de l'OCDE pour le soutien public à la R&D des entreprises ; propose un taux mixte sur le modèle espagnol."
+- date: "2026-10"
+  ref: "Lafrogne-Joussier, R. et A. Salib (2026), « La réindustrialisation face aux impératifs de compétitivité, de décarbonation et de souveraineté », *Trésor-Éco* n° 408."
+  url: "https://www.tresor.economie.gouv.fr/Articles/12817d0d-96a9-420e-bf8a-73e9a3392969/files/386b72b4-fb14-4b92-9fea-a7594de5e76e"
+  type: institution FR
+  avis: mentionner
+  ou: "4.1, p. 259 (réindustrialisation)"
+  motif: "Actualise la part de l'industrie (11,4 % de la valeur ajoutée en 2024) et ajoute la perte de compétitivité aux causes structurelles."
+- date: "2026-10-20"
+  ref: "Sénat, commission des finances (2026), note de présentation PLF 2027, mission « Remboursements et dégrèvements » (C. Savoldelli)."
+  url: "https://www.senat.fr/fileadmin/cru-1792598966/Commissions/Finances/2026-2027/PLF_2027/NP/NP_Remboursements_et_degrevements_PLF_2027.pdf"
+  type: institution FR
+  avis: citer
+  ou: "3.1.B, p. 248-249 (coût du CIR)"
+  motif: "Coût du CIR projeté à plus de 7,4 Md€ en 2027, après 7,3 Md€ en 2025 pour 17 079 entreprises : actualise le chiffre du livre."
+- date: "2026-10-26"
+  ref: "Gans, J. et N. Landry (2026), « Training Your Replacement: Worker Incentives and the Pace of Automation », NBER WP 35950."
+  url: "https://www.nber.org/papers/w35950"
+  type: académique
+  avis: écarter
+  ou: ""
+  motif: "Modèle théorique sur le rythme d'automatisation, sans données : pas assez central pour le chapitre."
+- date: "2026-10-28"
+  ref: "Cour des comptes (2026), « Le plan d'investissement France 2030 : bilan à mi-parcours et enseignements pour l'avenir », rapport public thématique."
+  url: "https://www.ccomptes.fr/sites/default/files/2026-10/20261028-France%202030.pdf"
+  type: institution FR
+  avis: citer
+  ou: "3.3.B, p. 255, et 4.2, p. 260-261 (France 2030)"
+  motif: "Bilan à mi-parcours : cible d'environ 50 % pour les acteurs émergents atteinte, mais définition jugée peu restrictive ; évaluation jugée insuffisante."
+- date: "2026-11"
+  ref: "Bank of England (2026), *Monetary Policy Report*, novembre 2026."
+  url: "https://www.bankofengland.co.uk/monetary-policy-report/2026/november-2026"
+  type: institution internationale
+  avis: citer
+  ou: "2.1.B, p. 234 (effet macroéconomique de l'IA)"
+  motif: "Les entreprises interrogées attendent 0,1 à 0,2 point de productivité par an : estimation récente dans la moitié basse de la fourchette du livre."
+- date: "2026-11"
+  ref: "Naudé, W., T. N. Sequeira et D. Almeida (2026), « From Automation to Acceleration: Transitional Regimes in AI-Driven Growth », IZA DP 19110."
+  url: "https://www.iza.org/publications/dp/19110/from-automation-to-acceleration-transitional-regimes-in-ai-driven-growth"
+  type: académique
+  avis: écarter
+  ou: ""
+  motif: "Modèle de croissance calibré sur des scénarios, sans estimation : l'encadré sur l'effet macroéconomique cite des chiffrages, pas des modèles."
+- date: "2026-11"
+  ref: "Van Nieuwerburgh, S. et Z. Su (2026), « Clouds of Credit: Mapping the Financial Web Behind AI Compute », NBER WP 36032."
+  url: "https://www.nber.org/papers/w36032"
+  type: académique
+  avis: écarter
+  ou: ""
+  motif: "Porte sur le financement des centres de données, pas sur la productivité : pas assez central."
+- date: "2026-11-02"
+  ref: "Bianchini, S. et A. Coroama (2026), « LLMs and the Organization of Scientific Work », arXiv 2611.02996."
+  url: "https://arxiv.org/abs/2611.02996"
+  type: académique
+  avis: écarter
+  ou: ""
+  motif: "Organisation des équipes de recherche après ChatGPT, comparaison avant-après sans groupe témoin : pas assez central."
+- date: "2026-11-05"
+  ref: "Sénat, commission des finances (2026), note de présentation PLF 2027, mission « Investir pour la France de 2030 »."
+  url: "https://www.senat.fr/fileadmin/cru-1792598966/Commissions/Finances/2026-2027/PLF_2027/NP/NP_FR30_PLF27_VF.pdf"
+  type: institution FR
+  avis: citer
+  ou: "3.3.B, p. 255, et 4.2, p. 260-261 (France 2030)"
+  motif: "Fin 2025, les entreprises de moins de 12 ans reçoivent 49 % des aides aux entreprises mais 31 % de l'ensemble des aides du plan ; 86 % de l'enveloppe attribuée fin 2027."
+- date: "2026-11-20"
+  ref: "Borri, N. et al. (2026), « The Rise of Agents and the Labor Market », arXiv 2611.27210."
+  url: "https://arxiv.org/abs/2611.27210"
+  type: académique
+  avis: mentionner
+  ou: "Encadré 6.2, p. 234-235 (IA et emploi)"
+  motif: "Après l'arrivée des agents de code (sept. 2025), les entreprises cotées américaines les plus exposées publient 4,7 % d'offres en moins, uniquement pour les postes non seniors."

@@ -10,11 +10,13 @@ title: "Chapitre 6, la productivité"
 <div class="tabs" role="tablist">
   <button class="tab" role="tab" aria-selected="true" aria-controls="p-passages" id="t-passages">Passages</button>
   <button class="tab" role="tab" aria-selected="false" aria-controls="p-graphiques" id="t-graphiques">Graphiques</button>
+  <button class="tab" role="tab" aria-selected="false" aria-controls="p-publications" id="t-publications">Publications</button>
   <button class="tab" role="tab" aria-selected="false" aria-controls="p-debats" id="t-debats">Débats</button>
   <button class="tab" role="tab" aria-selected="false" aria-controls="p-methode" id="t-methode">Méthode et sources</button>
 </div>
 
 <section class="panel" id="p-passages" role="tabpanel" aria-labelledby="t-passages">
+  <p class="dl"><a href="{{ '/assets/ch6/chapitre-6-modifications-suivies.docx' | relative_url }}" download>Télécharger les modifications proposées en mode suivi (Word)</a> · chaque brouillon y figure comme insertion suivie, à accepter ou refuser, avec ses références en commentaire. Le fichier ne contient aucun texte du manuel : chaque insertion est repérée par sa page et sa section.</p>
   <div class="filters" id="f-verdict"><span class="lbl">Verdict</span></div>
   <div class="filters" id="f-partie"><span class="lbl">Partie</span><input class="search" id="q" type="search" placeholder="Rechercher (CIR, IA, France 2030…)"></div>
   <p class="count" id="count"></p>
@@ -26,6 +28,24 @@ title: "Chapitre 6, la productivité"
 <figure><img src="{{ '/assets/ch6/graphique-6-3.png' | relative_url }}" alt="À gauche, emploi et ventes des entreprises françaises ayant adopté l'IA entre 2017 et 2020, écart aux non-adoptantes, 2014 à 2022. À droite, embauches en CDI de 21 à 29 ans chez les utilisatrices intensives d'IA générative, écart aux autres entreprises, 2021 à 2026."><figcaption><strong>Graphique 6.3 (p. 235).</strong> À gauche, la version du livre : l'emploi des entreprises adoptantes progresse d'environ 5 % par rapport aux non-adoptantes après l'adoption (Aghion et al., 2025, fig. 2, valeurs extraites de la figure publiée). À droite, la mise à jour pour l'IA générative : les utilisatrices intensives embauchent moins de jeunes en CDI depuis 2023 (Bergeaud et al., 2026, fig. 5, valeurs lues sur la figure, précision d'environ 0,01 ; résultat descriptif selon les auteurs). Barres : intervalles de confiance à 95 %. Mis à jour à la main à chaque nouvelle étude. <a href="{{ '/assets/ch6/data/graph63_aghion2025_fig2.csv' | relative_url }}">Données, gauche</a> · <a href="{{ '/assets/ch6/data/graph63_lift2026_fig5_21-29ans.csv' | relative_url }}">données, droite</a>.</figcaption></figure>
 <figure><img src="{{ '/assets/ch6/graphique-6-4.png' | relative_url }}" alt="Productivité horaire de la France rapportée aux États-Unis et à l'Allemagne. À gauche, corrigée de la composition de l'emploi, 2003 à 2019. À droite, OCDE, non corrigée, jusqu'à la dernière année disponible."><figcaption><strong>Graphique 6.4 (p. 237).</strong> À gauche, la version du livre, corrigée de la composition de l'emploi (Guadalupe et al., 2022). À droite, la série de l'OCDE, non corrigée, actualisée chaque mois : la productivité horaire française passe de {{ g.g64.fr_us_2003 | replace: '.', ',' }} fois celle des États-Unis en 2003 à {{ g.g64.fr_us | replace: '.', ',' }} en {{ g.g64.annee }}. Même tendance, niveaux différents : sans correction, la France ne passe sous les États-Unis qu'en 2023. Les deux séries ne doivent pas être raccordées. <a href="{{ '/assets/ch6/data/graph64_original_guadalupe2022.csv' | relative_url }}">Données, gauche</a> · <a href="{{ '/assets/ch6/data/graph64_ocde.csv' | relative_url }}">données, droite</a>.</figcaption></figure>
 <figure><img src="{{ '/assets/ch6/graphique-6-5.png' | relative_url }}" alt="Capital-risque en pourcentage du PIB par pays et par stade, 2022 et dernière année ; part du volume mondial par taille de tour, 2000-2023 et 2025."><figcaption><strong>Graphique 6.5 (p. 239).</strong> En haut, capital-risque en % du PIB : en {{ g.g65.annee }}, il est {{ g.g65.fr_fois | replace: '.', ',' }} fois plus faible en France qu'aux États-Unis, et {{ g.g65.de_fois | replace: '.', ',' }} fois plus faible en Allemagne (OCDE, actualisé chaque mois). En bas, part du volume mondial par taille de tour (Dealroom, actualisé à la main) : sur les tours de plus de 100 M$, l'Europe ne capte que 9 % du volume mondial en 2025 (périodes et périmètres différents de la version du livre : comparer les écarts, pas les niveaux). À gauche, la version du livre (CAE et Conseil allemand des experts économiques, 2024). <a href="{{ '/assets/ch6/data/graph65_gauche_ocde.csv' | relative_url }}">Données OCDE</a> · <a href="{{ '/assets/ch6/data/graph65_right_dealroom.csv' | relative_url }}">données Dealroom</a> · <a href="{{ '/assets/ch6/data/graph65_left_original_2022.csv' | relative_url }}">version du livre</a>.</figcaption></figure>
+</section>
+
+<section class="panel" id="p-publications" role="tabpanel" aria-labelledby="t-publications" hidden>
+  <p class="lead">Principales publications académiques et institutionnelles parues depuis octobre 2026, par ordre chronologique, avec la suggestion du LLM : à citer, à mentionner, à suivre, ou pas assez centrale pour être citée. Ces avis sont des propositions à valider par les auteurs. La liste est complétée chaque mois.</p>
+  {% assign pubs = site.data.ch6_publications | sort: "date" %}
+  <table class="pubs">
+    <thead><tr><th>Date</th><th>Publication</th><th>Type</th><th>Suggestion</th></tr></thead>
+    <tbody>
+    {% for p in pubs %}
+      <tr>
+        <td class="d">{{ p.date }}</td>
+        <td><a href="{{ p.url }}">{{ p.ref | markdownify | remove: '<p>' | remove: '</p>' | strip }}</a></td>
+        <td>{{ p.type }}</td>
+        <td><span class="avis a-{{ p.avis | slugify }}">{% case p.avis %}{% when 'citer' %}À citer{% when 'mentionner' %}À mentionner{% when 'suivre' %}À suivre{% else %}Pas assez centrale{% endcase %}</span>{% if p.ou != "" %} · {{ p.ou }}{% endif %}<br><span class="motif">{{ p.motif }}</span></td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
 </section>
 
 <section class="panel" id="p-debats" role="tabpanel" aria-labelledby="t-debats" hidden>

@@ -78,3 +78,19 @@ figcaption{font:.86rem/1.5 system-ui,sans-serif;color:var(--ink2);margin-top:8px
 /* method */
 .method li{margin-bottom:6px}
 .legend{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0 16px}
+
+/* download link */
+.dl{font:.86rem system-ui,sans-serif;color:var(--ink2);background:#fff;border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:0 0 14px}
+.dl a{font-weight:700}
+
+/* publications */
+.pubs{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:10px;font:.86rem/1.45 system-ui,sans-serif}
+.pubs th{text-align:left;color:var(--muted);font-weight:600;padding:10px 12px;border-bottom:1px solid var(--line)}
+.pubs td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+.pubs td.d{white-space:nowrap;color:var(--muted)}
+.pubs .motif{color:var(--ink2)}
+.avis{font:700 .72rem system-ui,sans-serif;padding:2px 8px;border-radius:999px;text-transform:uppercase;letter-spacing:.04em;background:var(--tient-bg);color:var(--tient-fg)}
+.avis.a-citer{background:var(--renf-bg);color:var(--renf-fg)}
+.avis.a-mentionner{background:var(--nouv-bg);color:var(--nouv-fg)}
+.avis.a-suivre{background:var(--nuan-bg);color:var(--nuan-fg)}
+@media (max-width:700px){.pubs th:nth-child(3),.pubs td:nth-child(3){display:none}}
