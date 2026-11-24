@@ -1,6 +1,7 @@
-# Saves new NBER, CEPR and journal items (top 5, JEL, JEP, Annual Review of Economics) every
-# Monday into routines/flux.json (scripts/collect_feeds.py). The feeds only go back one to two
-# weeks, so the monthly routine reads this file instead of the feeds themselves.
+# Every Monday, saves new NBER and CEPR papers and articles in 8 journals (top 5, JEL, JEP,
+# Annual Review of Economics) into routines/flux.json, titles and links only
+# (scripts/collect_feeds.py). Looks back 60 days, so a missed week is caught up. If a source
+# fails, the rest is still committed and the run is marked as failed (GitHub sends an email).
 name: Collect academic feeds
 on:
   schedule:
@@ -19,6 +20,7 @@ jobs:
           python-version: "3.12"
       - run: python3 scripts/collect_feeds.py
       - name: Commit new items
+        if: ${{ !cancelled() }}
         run: |
           git config user.name "living-review-bot"; git config user.email "actions@users.noreply.github.com"
           git add routines/flux.json
