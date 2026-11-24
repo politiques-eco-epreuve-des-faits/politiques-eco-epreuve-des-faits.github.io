@@ -87,3 +87,40 @@
   avis: mentionner
   ou: "Encadré 6.2, p. 234-235 (IA et emploi)"
   motif: "Après l'arrivée des agents de code (sept. 2025), les entreprises cotées américaines les plus exposées publient 4,7 % d'offres en moins, uniquement pour les postes non seniors."
+# Revues de référence (top 5, JEL, JEP, Annual Review of Economics), relevé Crossref du 24/11/2026 sur janvier-novembre 2026 :
+# articles parus en 2026, absents du livre, retenus sur leur résumé (texte intégral non lu).
+- date: "2026-01-30"
+  ref: "Acemoglu, D. et P. Restrepo (2026), « Automation and Rent Dissipation: Implications for Wages, Inequality, and Productivity », *Quarterly Journal of Economics*."
+  url: "https://doi.org/10.1093/qje/qjag006"
+  type: académique
+  avis: mentionner
+  ou: "2.1.B, p. 234 (effet macroéconomique de l'IA, scénario pessimiste)"
+  motif: "Aux États-Unis (1980-2016), l'automatisation cible les emplois les mieux rémunérés par rapport à l'option extérieure ; cette dissipation de rentes annule 60 à 90 % de ses gains de productivité : appuie la borne basse d'Acemoglu (2025)."
+- date: "2026-03"
+  ref: "Botelho, T. L., D. C. Fehder et Y. V. Hochberg (2026), « Innovation-Driven Entrepreneurship », *Journal of Economic Literature*, 64(1)."
+  url: "https://doi.org/10.1257/jel.20251484"
+  type: académique
+  avis: mentionner
+  ou: "3.1.B, p. 250 (aides aux jeunes entreprises innovantes)"
+  motif: "Revue de littérature sur l'entrepreneuriat innovant (entrée, financement, politiques de soutien), sans chiffre nouveau : référence de synthèse pour le paragraphe sur les aides ciblées."
+- date: "2026-08"
+  ref: "Jones, C. I. (2026), « AI and Our Economic Future », *Journal of Economic Perspectives*, 40(3), p. 3-22."
+  url: "https://doi.org/10.1257/jep.20261505"
+  type: académique
+  avis: mentionner
+  ou: "2.1.B, p. 234 (effet macroéconomique de l'IA)"
+  motif: "L'IA peut accélérer une croissance stable autour de 2 % par an depuis 150 ans aux États-Unis, mais les « maillons faibles » non automatisés retardent les gains : argument théorique pour la lenteur des effets macro."
+- date: "2026-10-07"
+  ref: "Cavenaile, L., M. A. Celik et X. Tian (2026), « Are Markups Too High? Competition, Strategic Innovation, and Industry Dynamics », *Review of Economic Studies*."
+  url: "https://doi.org/10.1093/restud/rdag110"
+  type: académique
+  avis: citer
+  ou: "2.1.A, p. 231-232 (idées plus difficiles à trouver ; concentration)"
+  motif: "Modèle estimé sur les États-Unis : la hausse des taux de marge coûte en bien-être statique mais est plus que compensée par l'innovation qu'elle suscite, et le ralentissement vient surtout du coût croissant de l'innovation. Conforte la première explication et nuance la deuxième."
+- date: "2026-11"
+  ref: "Baron, E. J., S. Kantor et A. Whalley (2026), « Can Government Support for Innovation Create the Next Silicon Valley? », *Journal of Economic Perspectives*, 40(4), p. 31-52."
+  url: "https://doi.org/10.1257/jep.20251493"
+  type: académique
+  avis: citer
+  ou: "3.3.B, p. 258 (financement public de la recherche)"
+  motif: "Revue des preuves causales : la R&D publique accroît l'innovation, l'emploi et les revenus locaux, mais avec des effets hétérogènes, souvent modestes au regard du coût, et en partie par déplacement d'activité : nuance le message sur les effets durables (Kantor et Whalley, 2023)."
