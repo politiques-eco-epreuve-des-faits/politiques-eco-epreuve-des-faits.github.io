@@ -94,8 +94,8 @@
   url: "https://doi.org/10.1093/qje/qjag006"
   type: académique
   avis: mentionner
-  ou: "2.1.B, p. 234 (effet macroéconomique de l'IA, scénario pessimiste)"
-  motif: "Aux États-Unis (1980-2016), l'automatisation cible les emplois les mieux rémunérés par rapport à l'option extérieure ; cette dissipation de rentes annule 60 à 90 % de ses gains de productivité : appuie la borne basse d'Acemoglu (2025)."
+  ou: "Encadré 6.2, p. 234-235 (automatisation, salaires et emploi)"
+  motif: "Aux États-Unis (1980-2016), l'automatisation cible les emplois les mieux rémunérés par rapport à l'option extérieure ; cette dissipation de rentes annule 60 à 90 % de ses gains de productivité."
 - date: "2026-03"
   ref: "Botelho, T. L., D. C. Fehder et Y. V. Hochberg (2026), « Innovation-Driven Entrepreneurship », *Journal of Economic Literature*, 64(1)."
   url: "https://doi.org/10.1257/jel.20251484"
@@ -124,3 +124,187 @@
   avis: citer
   ou: "3.3.B, p. 258 (financement public de la recherche)"
   motif: "Revue des preuves causales : la R&D publique accroît l'innovation, l'emploi et les revenus locaux, mais avec des effets hétérogènes, souvent modestes au regard du coût, et en partie par déplacement d'activité : nuance le message sur les effets durables (Kantor et Whalley, 2023)."
+# Lecture du 24/11/2026 (1 180 titres, dont 1 008 avec résumé : revues janvier-novembre, NBER et CEPR depuis fin septembre),
+# retenus sur leur résumé (texte intégral non lu). Déjà cité dans le livre : Einiö, Feng et Jaravel seulement (ch. 9).
+- date: "2026-03-23"
+  ref: "Cirera, X., D. Comin et M. Cruz (2026), « Technology Sophistication Across Establishments », *Quarterly Journal of Economics*, 141(3), p. 2025-2085."
+  url: "https://doi.org/10.1093/qje/qjag018"
+  type: académique
+  avis: mentionner
+  ou: "4.3, p. 262 (diffusion des technologies)"
+  motif: "Sur plus de 21 000 établissements dans 15 pays, les établissements sous-utilisent en général la technologie la plus avancée dont ils disposent pour une fonction donnée ; cet écart entre technologie la plus avancée et technologie la plus utilisée est persistant et fortement associé à la productivité entre établissements et entre pays (association, non effet causal)."
+- date: "2026-07-20"
+  ref: "Heblich, S., M. Seror, H. Xu et Y. Zylberberg (2026), « Industrial Clusters in the Long Run: Evidence from Million-Rouble Plants in China », *Review of Economic Studies*."
+  url: "https://doi.org/10.1093/restud/rdag078"
+  type: académique
+  avis: mentionner
+  ou: "3.2, p. 252-254 (politiques verticales)"
+  motif: "En Chine, les comtés accueillant les grandes usines soviéto-chinoises des années 1950, dont l'implantation est en partie exogène, étaient 80 % plus productifs que les comtés témoins en 1982 mais 20 % moins productifs en 2010, la spécialisation ayant freiné les externalités et l'entrepreneuriat local."
+- date: "2026-08-01"
+  ref: "Bhattacharya, V., G. Illanes et D. Stillerman (2026), « Merger Effects and Antitrust Enforcement: Evidence from US Consumer Packaged Goods », *American Economic Review*, 116(8), p. 2996-3035."
+  url: "https://doi.org/10.1257/aer.20240497"
+  type: académique
+  avis: mentionner
+  ou: "3.1, p. 246-247 (contrôle des fusions)"
+  motif: "Fusions de fabricants américains de biens de consommation : effet moyen faible sur les prix mais très hétérogène (écart-type de 3,9 à 7,6 points) ; un contrôle plus strict réduirait les prix, pour une charge administrative nettement plus lourde."
+- date: "2026-08-01"
+  ref: "Gopinath, G. et B. Neiman (2026), « The Incidence of Tariffs: Rates and Reality », *Journal of Economic Perspectives*, 40(3), p. 123-144."
+  url: "https://doi.org/10.1257/jep.20251486"
+  type: académique
+  avis: mentionner
+  ou: "3.2, p. 254 (protectionnisme)"
+  motif: "La transmission des droits de douane américains aux prix d'importation a atteint 92 %, de sorte que les États-Unis en ont supporté une grande part du coût, bien que les taux effectivement appliqués en 2025 n'aient été que la moitié des taux légaux."
+- date: "2026-08-07"
+  ref: "De Loecker, J. et J. Eeckhout (2026), « The Macroeconomics of Market Power », *Annual Review of Economics*, 18, p. 695-726."
+  url: "https://doi.org/10.1146/annurev-economics-100825-105527"
+  type: académique
+  avis: mentionner
+  ou: "2.1.A, p. 232 (pouvoir de marché)"
+  motif: "Cette revue de littérature constate que plusieurs mesures agrégées de pouvoir de marché (marges, taux de profit, capitalisation) ont augmenté depuis 1980 aux États-Unis et dans le monde, en grande partie par réallocation des parts de marché et par hausse de l'inverse de la part des dépenses variables, mais avertit qu'un même taux de marge agrégé peut correspondre à des niveaux différents de production et de bien-être."
+- date: "2026-08-07"
+  ref: "Autor, D., C. Chin, A. Salomons et B. Seegmiller (2026), « What Makes New Work Different from More Work? », *Annual Review of Economics*, 18, p. 535-559."
+  url: "https://doi.org/10.1146/annurev-economics-092325-041649"
+  type: académique
+  avis: mentionner
+  ou: "Encadré 6.2, p. 234-235 (nouveaux métiers)"
+  motif: "Aux États-Unis (recensements de 1940 et 1950, enquête ACS 2011-2023), les nouveaux métiers sont occupés de façon disproportionnée par des travailleurs plus jeunes et plus diplômés au sein d'une même cellule métier-secteur et procurent une prime salariale persistante, qui décline toutefois d'un millésime à l'autre à mesure que l'expertise se diffuse."
+- date: "2026-09"
+  ref: "Blumenfeld, A., J. Hazell, C. Lian et A. Schaab (2026), « The Macroeconomic Effect of AI: Sizing the Software Engineering Channel », NBER WP 35793."
+  url: "https://doi.org/10.3386/w35793"
+  type: académique
+  avis: citer
+  ou: "2.1.B, p. 234 (effet macroéconomique de l'IA)"
+  motif: "Mesure tirée des marchés financiers : de novembre 2022 à décembre 2025, l'IA a accru la productivité attendue du génie logiciel de l'équivalent de 32,6 % permanents, soit 3,6 % de PIB en niveau (6,5 % si elle accroît aussi la productivité de la R&D). Anticipation des marchés, non effet observé."
+- date: "2026-09"
+  ref: "Fairlie, R. et J. Wu (2026), « The Early Impacts of AI on Employment among Recent College Graduates », NBER WP 35796."
+  url: "https://doi.org/10.3386/w35796"
+  type: académique
+  avis: citer
+  ou: "Encadré 6.2, p. 234-235 (IA et emploi)"
+  motif: "États-Unis, été 2026 : le chômage des jeunes diplômés n'augmente pas de façon significative par rapport aux étés précédents, aux diplômés plus âgés ou aux jeunes non diplômés ; à rapprocher de Brynjolfsson et al. (2026)."
+- date: "2026-09-01"
+  ref: "Kennedy, P. J., C. L. Dobridge, P. Landefeld et J. Mortenson (2026), « Corporate Tax Cuts, Firm Growth, and Workers' Earnings », *American Economic Review*, 116(9), p. 3380-3422."
+  url: "https://doi.org/10.1257/aer.20240404"
+  type: académique
+  avis: citer
+  ou: "3.1.C, p. 250-251 (impôt sur les sociétés)"
+  motif: "En comparant des entreprises américaines de taille et de secteur similaires mais de statut juridique différent, la plus forte baisse d'impôt sur les sociétés de l'histoire des États-Unis accroît l'investissement, les ventes, les profits, l'emploi et la masse salariale, mais à court terme 87 % des gains de revenu privé vont aux 10 % les plus aisés de la distribution des revenus."
+- date: "2026-09-03"
+  ref: "Peter, A. (2026), « Equity Frictions and Firm Ownership », *Review of Economic Studies*."
+  url: "https://doi.org/10.1093/restud/rdag098"
+  type: académique
+  avis: mentionner
+  ou: "4.3, p. 262 (financement en fonds propres)"
+  motif: "Dans un modèle d'équilibre général quantifié sur les pays de la zone euro, harmoniser entre pays les frictions sur le financement en fonds propres aurait un effet sur la production près de quatre fois plus grand qu'harmoniser les frictions sur la dette, et les supprimer augmenterait la production de 73 % de plus que supprimer celles sur la dette."
+- date: "2026-09-28"
+  ref: "Bena, J., B. Bian et M. Giannetti (2026), « Prompted to Start: How Generative AI is Transforming Entrepreneurship », CEPR DP 21982."
+  url: "https://cepr.org/publications/dp21982"
+  type: académique
+  avis: mentionner
+  ou: "Encadré 6.2, p. 234-235 (IA et emploi)"
+  motif: "Après la diffusion de l'IA générative, les secteurs dont les tâches y sont plus exposées connaissent 20 % de créations de start-up de plus que les secteurs moins exposés, avec une création nette d'emplois et une hausse des salaires au niveau sectoriel, y compris dans les métiers les plus exposés."
+- date: "2026-09-29"
+  ref: "Dillner, G., R. Freeman, K. Manova et T. Sampson (2026), « Quantifying Non-Tariff Barriers: Brexit, Input Sourcing and Firm Performance », CEPR DP 21997."
+  url: "https://cepr.org/publications/dp21997"
+  type: académique
+  avis: mentionner
+  ou: "4.3, p. 261 (marché unique)"
+  motif: "L'accord de commerce post-Brexit a réduit les ventes et les achats d'intrants des entreprises britanniques les plus exposées à l'UE ; selon un modèle de commerce, il a augmenté de 21 % les coûts de commerce sur les importations venant de l'UE et de 3,1 % le coût unitaire de production de l'importateur britannique moyen, ce qui mesure les gains de l'appartenance à l'UE et non les barrières internes restantes."
+- date: "2026-10"
+  ref: "Babbar, A., S. Kantor, A. Whalley et J. Zeng (2026), « Public R&D and the Automation of Manufacturing: Evidence from the Space Race », NBER WP 35966."
+  url: "https://doi.org/10.3386/w35966"
+  type: académique
+  avis: mentionner
+  ou: "3.3, p. 258 (R&D publique)"
+  motif: "Course à l'espace : les brevets financés par la NASA sont plus tournés vers l'automatisation que les autres brevets des mêmes classes, et la part du travail baisse durablement dans les secteurs et lieux les plus exposés."
+- date: "2026-10-01"
+  ref: "Einiö, E., J. Feng et X. Jaravel (2026), « Social Push and the Direction of Innovation », *American Economic Review*, 116(10), p. 3875-3909."
+  url: "https://doi.org/10.1257/aer.20231417"
+  type: académique
+  avis: citer
+  ou: "Encadré 6.1, p. 230 (accès aux carrières d'innovateur) ; déjà cité au chapitre 9, p. 382, où la référence « à paraître » est à actualiser"
+  motif: "Avec des données appariées aux États-Unis et en Finlande, les innovateurs créent des produits plus susceptibles d'être achetés par des consommateurs qui leur ressemblent (genre, milieu social, âge), et, selon un modèle de croissance estimé, l'inégalité d'accès aux carrières d'innovateur a un effet important sur les inégalités de coût de la vie et sur la croissance de long terme."
+- date: "2026-10-02"
+  ref: "Goldberg, P. K., R. Juhász, G. Lo Forte et J. Thurk (2026), « How Knowledge Crosses Borders: Evidence from Semiconductor Manufacturing », CEPR DP 22009."
+  url: "https://cepr.org/publications/dp22009"
+  type: académique
+  avis: mentionner
+  ou: "3.2, p. 251-254 (politiques verticales)"
+  motif: "Dans les semi-conducteurs, l'apprentissage transfrontalier passe largement par des relations de marché (chaînes de valeur, mobilité des ingénieurs au sein des multinationales, investissements directs étrangers) plutôt que par des externalités anonymes, si bien que les politiques de montée en gamme nationale seraient plus efficaces avec un accès maintenu aux sources étrangères de connaissances de pointe."
+- date: "2026-10-13"
+  ref: "Carballido Cerqueiro, M., J. Carro et G. Siotis (2026), « Multimarket Contact and the Southwest Effect: Twenty-Five Years of Evolving Rivalry in the US Airline Industry », CEPR DP 22039."
+  url: "https://cepr.org/publications/dp22039"
+  type: académique
+  avis: mentionner
+  ou: "3.1, p. 246 (chocs concurrentiels)"
+  motif: "Dans le transport aérien américain (2000-2025), l'effet proconcurrentiel de la présence de Southwest est net en début de période mais disparaît vers 2016, quand la compagnie semble se comporter comme les opérateurs historiques."
+- date: "2026-10-26"
+  ref: "Betz, F., R. Pál, A. Sapir et H. Tran (2026), « Financing High-Growth Firms in Europe: Market Integration Matters, but so does Depth », CEPR DP 22085."
+  url: "https://cepr.org/publications/dp22085"
+  type: académique
+  avis: mentionner
+  ou: "4.3, p. 262 (marchés de capitaux européens)"
+  motif: "Dans l'UE, au Royaume-Uni et aux États-Unis, les entreprises situées sur des marchés de capitaux plus profonds et plus grands émettent significativement plus souvent des actions, surtout les jeunes entreprises à forte croissance et de haute technologie, et celles qui en émettent investissent et innovent ensuite davantage (associations, sans chiffre dans le résumé)."
+- date: "2026-10-26"
+  ref: "Carry, P., C. Montialoux, E. Nimier-David, A. Roulet et N. Roussille (2026), « The Effects of a Shorter Workweek on Employment, Output, and Productivity », CEPR DP 22090."
+  url: "https://cepr.org/publications/dp22090"
+  type: académique
+  avis: mentionner
+  ou: "2.2.A, p. 236 (trajectoire de la productivité française)"
+  motif: "En France, le passage de 39 à 35 heures en 2000 a accru la productivité globale des facteurs de 2 %, ce qui a limité la baisse de la production à 1 % malgré un recul de 6 % du total des heures, l'emploi restant inchangé (sans les baisses de cotisations, il aurait reculé de 4 %)."
+- date: "2026-11"
+  ref: "Jones, C. I. et C. Tonetti (2026), « Past Automation and Future AI: How Weak Links Tame the Growth Explosion », NBER WP 36050."
+  url: "https://doi.org/10.3386/w36050"
+  type: académique
+  avis: mentionner
+  ou: "2.1.B, p. 234 (effet macroéconomique de l'IA)"
+  motif: "Une comptabilité de croissance par tâches montre qu'aux États-Unis la productivité du capital dans les tâches a crû d'environ 5 points de pourcentage par an de plus que celle du travail ; dans le modèle calibré sur ces mesures, l'automatisation de la production et des idées accélère la croissance, qui peut devenir explosive, mais les « maillons faibles » (tâches encore effectuées par le travail) freinent cette accélération."
+- date: "2026-11"
+  ref: "Mohnen, M. et J. S. Gans (2026), « How AI Impacts the Quest for Knowledge: Evidence from AlphaFold2 », NBER WP 36045."
+  url: "https://doi.org/10.3386/w36045"
+  type: académique
+  avis: mentionner
+  ou: "2.1.A, p. 231-232 (idées plus difficiles à trouver)"
+  motif: "Sur 530 471 protéines suivies de 2017 à 2025, là où les prédictions d'AlphaFold2 sont plus fiables, l'activité expérimentale après 2021 produit moins de premières structures pour les protéines éloignées de toute structure connue et davantage d'expériences de suivi sur des protéines de structure déjà connue, par rapport aux protéines aux prédictions moins fiables : l'IA peut approfondir les connaissances existantes plutôt que les étendre."
+- date: "2026-11"
+  ref: "Barwick, P. J., L. Fang, J. Liu, H. Xu et Z. Yuan (2026), « AI as Shared Business Infrastructure: Firm Growth and the Distribution of Gains », NBER WP 36003."
+  url: "https://doi.org/10.3386/w36003"
+  type: académique
+  avis: mentionner
+  ou: "2.1.B, p. 233-234 (effets de l'IA au niveau micro)"
+  motif: "Plateforme chinoise de commerce en ligne, entreprises de moins de 5 millions de yuans de ventes annuelles : l'adoption d'outils d'IA générative accroît les ventes mensuelles de 51,6 % par rapport à des entreprises comparables, surtout chez les plus petites."
+- date: "2026-11-01"
+  ref: "Fieldhouse, A. J. et K. Mertens (2026), « The Returns to Government R&D: Evidence from US Appropriations Shocks », *American Economic Review*, 116(11), p. 3959-4002."
+  url: "https://doi.org/10.1257/aer.20231684"
+  type: académique
+  avis: citer
+  ou: "2.1.A, p. 232-233, et 3.3, p. 258 (R&D publique)"
+  motif: "À partir d'une classification narrative des grands changements de crédits de R&D de cinq agences fédérales américaines depuis la guerre, une hausse des crédits non militaires accroît à long terme l'innovation et la productivité du secteur des entreprises, avec un rendement implicite de 140 à 210 % sur l'après-guerre, la R&D financée par l'État expliquant un cinquième de la croissance de la PGF des entreprises depuis la Seconde Guerre mondiale."
+- date: "2026-11-04"
+  ref: "Aghion, P., A. Bergeaud, M. De Ridder et J. Van Reenen (2026), « Lost in Transition: Financial Barriers to New Technologies », CEPR DP 22137."
+  url: "https://cepr.org/publications/dp22137"
+  type: académique
+  avis: citer
+  ou: "4.3, p. 262, et 2.2.B, p. 238-239 (financement des jeunes entreprises)"
+  motif: "L'innovation dans les technologies nouvelles est plus sensible au durcissement des conditions financières que celle dans les technologies mûres, car les jeunes entreprises, plus contraintes, s'y spécialisent ; d'après les brevets verts des entreprises allemandes autour de la crise financière mondiale, le ralentissement de l'orientation des jeunes entreprises vers les technologies nouvelles explique environ un cinquième de l'évolution macroéconomique de l'innovation verte."
+- date: "2026-11-13"
+  ref: "Bach, L., A. Bozio, A. Guillouzouic, C. Leroy et C. Malgouyres (2026), « A Closely-Held View of Dividend Taxation », CEPR DP 22173."
+  url: "https://cepr.org/publications/dp22173"
+  type: académique
+  avis: citer
+  ou: "3.1.C, p. 250-251 (fiscalité du capital et investissement)"
+  motif: "Avec des données fiscales appariées actionnaires-entreprises et deux réformes françaises (hausse de l'imposition des dividendes en 2013, baisse en 2018), les versements de dividendes réagissent très fortement mais l'investissement est insensible à cette fiscalité, les variations de versements étant absorbées par les bénéfices non distribués."
+- date: "2026-11-16"
+  ref: "Amorim Cabaco, B. et M. Ravn (2026), « Antitrust, Market Power, and U.S. Economic Outcomes », CEPR DP 22186."
+  url: "https://cepr.org/publications/dp22186"
+  type: académique
+  avis: citer
+  ou: "3.1, p. 246 (application du droit de la concurrence)"
+  motif: "À partir d'un recensement narratif de toutes les poursuites antitrust fédérales (DoJ et FTC) depuis le milieu des années 1950, une application plus stricte du droit de la concurrence accroît la production, le capital de R&D et les brevets et améliore l'efficacité allocative ; pour les fusions civiles, la production augmente sans hausse durable des intrants."
+- date: "2026-11-16"
+  ref: "Hacheme, G. Q., E. Iyoha, A. Ndiaye et N. S. Souleymane (2026), « Frontier Technology in Frontier Markets? Financing Global AI Entrepreneurship », CEPR DP 22189."
+  url: "https://cepr.org/publications/dp22189"
+  type: académique
+  avis: mentionner
+  ou: "2.2.B, p. 238-239 (capital-risque)"
+  motif: "Sur 116 795 start-up fondées entre 2015 et 2022 dans 172 pays, les start-up d'IA lèvent chaque année 151 % de capitaux de plus que les autres start-up en Amérique du Nord, contre 16 % de plus en Europe (il s'agit d'un écart entre start-up d'une même région, non d'un écart de niveau entre régions)."
